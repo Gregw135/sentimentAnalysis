@@ -20,6 +20,7 @@ libraryDependencies ++= {
   )
 }
 
+
 assemblyMergeStrategy in assembly := {
   case PathList("org", "apache", xs @ _*)      => MergeStrategy.first
   case PathList("javax", "xml", xs @ _*)      => MergeStrategy.first
